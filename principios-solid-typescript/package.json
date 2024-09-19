@@ -1,0 +1,20 @@
+{
+  "name": "solid-principles",
+  "version": "1.0.0",
+  "description": "simple CLI application for learning SOLID principles",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}

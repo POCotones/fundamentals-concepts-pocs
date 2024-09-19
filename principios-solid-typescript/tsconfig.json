@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",              // Versión de ECMAScript a la que se compila
+      "module": "ESNext",              // Usa módulos de ESNext para soporte de import/export
+      "moduleResolution": "node",     // Resolución de módulos compatible con Node.js
+      "outDir": "./dist",              // Carpeta donde se generan los archivos JS
+      "rootDir": "./src",              // Carpeta raíz para archivos fuente TS
+      "strict": true,                  // Habilita todas las comprobaciones de tipo estrictas
+      "esModuleInterop": true,         // Habilita interoperabilidad entre módulos ES y CommonJS
+      "skipLibCheck": true             // Omite la comprobación de tipos de las librerías
+    },
+    "include": ["src/**/*.ts"],        // Archivos TS a incluir en la compilación
+    "exclude": ["node_modules"]        // Archivos o carpetas a excluir
+  }
+  
